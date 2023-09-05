@@ -1,0 +1,7 @@
+num_clients: 10
+hidden_dim: 64
+dropout: 0.0
+lr: 0.005
+step_size: 8
+gamma: 0.9
+patience: 16
