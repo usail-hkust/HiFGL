@@ -9,7 +9,7 @@ def parse_global_args():
     parser = argparse.ArgumentParser()
     parser = pl.Trainer.add_argparse_args(parser)
 
-    parser.add_argument('--root', type=str, default='/home/guozhuoning/projects/hierarchical_fed_graph/')
+    parser.add_argument('--root', type=str, default='./')
     parser.add_argument('--data_folder', type=str, default='data')
     parser.add_argument('--args_folder', type=str, default='args')
     parser.add_argument('-D', '--dataset_name', type=str)
