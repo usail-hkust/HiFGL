@@ -35,3 +35,23 @@ python ./code/main.py -D cora -E 64
   year={2024}
 }
 ```
+
+```
+@inproceedings{10.1145/3637528.3671660,
+  author = {Guo, Zhuoning and Yao, Duanyi and Yang, Qiang and Liu, Hao},
+  title = {HiFGL: A Hierarchical Framework for Cross-silo Cross-device Federated Graph Learning},
+  year = {2024},
+  isbn = {9798400704901},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3637528.3671660},
+  doi = {10.1145/3637528.3671660},
+  abstract = {},
+  booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages = {968–979},
+  numpages = {12},
+  keywords = {federated graph learning, graph neural network, multi-level privacy preservation},
+  location = {Barcelona, Spain},
+  series = {KDD '24}
+}
+```
