@@ -12,7 +12,7 @@ def parse_global_args():
     parser.add_argument('--root', type=str, default='./')
     parser.add_argument('--data_folder', type=str, default='data')
     parser.add_argument('--args_folder', type=str, default='args')
-    parser.add_argument('-D', '--dataset_name', type=str)
+    parser.add_argument('-D', '--dataset_name', type=str, default='cora')
     parser.add_argument('-E', '--epochs', type=int, default=1024, help='epoch size')
     parser.add_argument('--train_batch_size', type=int, default=1, help='train batch size.')
     parser.add_argument('--val_batch_size', type=int, default=1, help='validation batch size.')

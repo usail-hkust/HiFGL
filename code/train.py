@@ -102,7 +102,7 @@ class TrainHiFGL(pl.LightningModule):
         self.validation_step(*args, **kwargs)
 
     def _get_clients(self):
-        return {i: torch.load(f"../data/{self.hparams.dataset_name}/{i}_clients.pt") for i in ([-1] + list(range(1, self.hparams.num_clients + 1)))}
+        return {i: torch.load(f"./data/{self.hparams.dataset_name}/{i}_clients.pt") for i in ([-1] + list(range(1, self.hparams.num_clients + 1)))}
 
     def _count_classes(self, clients: dict):
         classes = set()
