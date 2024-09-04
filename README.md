@@ -17,6 +17,10 @@ Federated Graph Learning (FGL) has emerged as a promising way to learn high-qual
 - PyTorch Lightning 1.5.3
 - TorchMetrics 0.6
 
+### Data
+
+We process data from traditional graph datasets, the processed data are provided at Google Drive [HiFGL-KDD2024-Data](https://drive.google.com/drive/folders/1C7tlNCwBLwX8bAnQktPFUHUxeiq18nVO?usp=sharing). Please download and unzip it and put the folder in the first level of the whole repository (i.e., parallel with code folder).
+
 ### Run
 
 An example that appoints dataset with `cora` and epochs with `64`.
